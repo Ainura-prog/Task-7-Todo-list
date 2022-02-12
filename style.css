@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    width: 400px;
+    margin: 15px auto;
+    position: relative;
+    display: block;
+}
+
+form {
+    max-width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+form label,
+form input,
+form button {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+form input {
+    text-align: left !important;
+}
+
+.todo {
+    margin-top: 30px;
+    max-width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.todo label {
+    display: block;
+    text-align: center;
+}
+
+.todo-item {
+    border-radius: 3px;
+    display: block;
+    background: #eee;
+    color: black;
+    margin: 10px 0;
+    padding: 7px;
+}
